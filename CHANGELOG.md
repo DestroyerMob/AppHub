@@ -1,10 +1,16 @@
 # Release notes
 
-## 0.1.1 — In preparation
+## 0.2.0 — In preparation
 
-- Renamed Harbor to AppHub and introduced a new app icon.
-- Added a public home for release notes and downloads.
-- Configured GitHub sign-in through AppHub's registered OAuth App.
-- Includes repository discovery, release downloads, source archives, cloning, and appearance settings.
+- Added verified AppHub updates from this public release repository, with progress and restart controls.
+- Added a Windows x64 installer and secure Credential Manager storage.
+- Added a Linux x64 AppImage and desktop keyring storage.
+- Preserved Mac Apple Silicon and Intel support, appearance settings, and sign-in.
+- Kept release downloads compact by reusing Windows/Linux installers for updates.
 
-The first release is a draft while Apple signing and release validation are completed.
+This release remains a draft while platform signing and installation review are completed.
+
+## 0.1.1
+
+- Renamed Harbor to AppHub with a new icon and public download repository.
+- Configured GitHub sign-in and the repository/release library.
