@@ -8,15 +8,16 @@ This is AppHub's official public repository for downloads and release notes.
 
 ## Downloads
 
-AppHub 0.2.0 is being prepared for Mac, Windows, and Linux. No public installer has been published yet.
+AppHub 0.2.1 is being prepared for Mac, Windows, and Linux. No public installer has been published yet.
 
 Approved downloads will appear on the [Releases page](https://github.com/DestroyerMob/AppHub/releases). Choose a DMG for Apple Silicon or Intel Macs (macOS 13+), the Windows x64 installer, or the Linux x64 AppImage. Linux builds target Ubuntu 22.04 or newer and need an unlocked desktop keyring for sign-in.
 
-The Windows installer and Linux AppImage are also used for in-app updates. Mac `.app.tar.gz` files and `latest.json` support the updater; use a DMG for a first Mac installation. Checksums cover every download. AppHub 0.1.1 users need one manual upgrade to 0.2.0 before in-app updates are available.
+The Windows installer and Linux AppImage are also used for in-app updates. Mac `.app.tar.gz` files and `latest.json` support the updater; use a DMG for a first Mac installation. Checksums cover every download. AppHub 0.1.1 users need one manual upgrade to 0.2.1 before in-app updates are available.
 
 ## What AppHub does
 
 - Search GitHub repositories and browse projects with published releases as apps.
+- Choose search increments of 25, 50, 75, or 100 repositories, with your preference saved. The default is 25; Apps mode may show fewer matches.
 - Download release files or source archives and clone repositories without installing Git.
 - Access public, private, and organisation repositories available to your GitHub account.
 - Track transfers and customise theme, accent colour, density, and sidebar layout.
